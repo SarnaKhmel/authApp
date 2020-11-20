@@ -91,14 +91,14 @@ button {
   font-size: 16px;
 }
 
-.hero {
+.timer {
   width: 100%;
   min-height: 100vh;
   background: rgba(196, 196, 196, 1);
 
 }
 
-.hero nav {
+.timer nav {
   background: #603bbb;
   width: 100%;
   padding: 20px 40px;
@@ -107,11 +107,11 @@ button {
   justify-content: space-between;
 }
 
-.hero nav h2 {
+.timer nav h2 {
   color: #fff;
 }
 
-.hero nav button {
+.timer nav button {
   width: 86px;
   padding: 8px 0;
   background: rgba(196, 196, 196, 1);
