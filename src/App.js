@@ -6,6 +6,8 @@ import Timer from './Timer'
 
 function App() {
   const [user, setUser] = useState('');
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [emailError, setEmailError] = useState('');
@@ -104,6 +106,11 @@ function App() {
             setHasAccount={setHasAccount}
             emailError={emailError}
             passwordError={passwordError}
+            firstName={firstName}
+            setFirstName={setFirstName}
+            lastName={lastName}
+            setLastName={setLastName}
+
             />
       )}
     

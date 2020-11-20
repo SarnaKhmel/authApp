@@ -11,8 +11,11 @@ const Timer = (props) => {
                 <h1>Timer</h1>
                 <button onClick={handleLogout}>Logout</button>
             </nav>
-            <div className="timerConstructor">
+            <div className="timerContainer">
                 <img src={timerImg} />
+                <div className='timeIn'>
+                    Time In
+                </div>
             </div>
         </section>
     )
