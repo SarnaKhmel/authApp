@@ -6,15 +6,17 @@
 }
 
 button {
-  border: none;
+  border: 1px solid black;
+  border-radius: 63px;
   outline: none;
   width: 100%;
   padding: 15px 0;
   color: #fff;
   font-size: 16px;
   letter-spacing: 1px;
-  background: #603bbb;
+  background: rgba(130, 130, 130, 1);
   cursor: pointer;
+
 }
 
 .login {
@@ -34,13 +36,11 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: radial-gradient(
-    ellipse at left bottom,
-    rgba(22, 24, 47, 1) 0%,
-    rgba(38, 20, 72, 0.9) 59%,
-    rgba(17, 27, 75, 0.9) 100%
-  );
+  background: rgba(196, 196, 196, 1);
   box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+  /* border: 1px solid black; */
+  border: none;
+  border-radius: 57px;
 }
 
 .login .loginContainer label {
@@ -94,12 +94,8 @@ button {
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: radial-gradient(
-    ellipse at left bottom,
-    rgba(22, 24, 47, 1) 0%,
-    rgba(38, 20, 72, 0.9) 59%,
-    rgba(17, 27, 75, 0.9) 100%
-  );
+  background: rgba(196, 196, 196, 1);
+
 }
 
 .hero nav {
@@ -118,5 +114,5 @@ button {
 .hero nav button {
   width: 86px;
   padding: 8px 0;
-  background: #3a2b58;
+  background: rgba(196, 196, 196, 1);
 }
